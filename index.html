@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Hands ON</title>
+</head>
+<body>
+    <script>
+        var a = prompt("PLZ ENTER THE FIRST NUMBER SIDE: ");
+        var b = prompt("PLZ ENTER THE SECOND NUMBER SIDE: ");
+        var c = prompt("PLZ ENTER THE THIRD NUMBER SIDE:  ");
+
+        determine(a, b, c);
+
+        function determine(a, b, c)
+        {
+          if(a == b == c)
+
+         {window.alert("EQUILATERAL");}
+         else if ( a == b && a!=c && b!=c )
+         { window.alert("ISOCELES");}
+         else if ( a == c && a!=b && b!=c )
+         {window.alert("ISOCELES");}
+         else if ( b == c && a!=b && a!=c )
+         { window.alert("ISOCELES") }
+         else {window.alert("SCALENE") }
+        }
+   
+
+    </script>
+</body>
+</html>
